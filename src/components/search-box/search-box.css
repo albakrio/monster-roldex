@@ -14,5 +14,26 @@
   border-radius: 20px;
   font-family: fantasy;
   font-size: 30px;
+  text-align: left;
+
+
+
+
+
+
+}
+
+::placeholder {
   text-align: center;
+
+}
+
+@media screen and (max-width: 760px) {
+  .search {
+    width: 90%;
+  }
+
+
+
+
 }

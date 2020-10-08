@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import CardList from './components/card-list/CardList';
 import SearchBox from './components/search-box/SearchBox';
@@ -30,7 +29,7 @@ class App extends Component {
 		);
 		return (
 			<div className='App'>
-			  <h1>Monsters Roldex</h1>
+				<h1>Monsters Roldex</h1>
 				<SearchBox
 					placeholder='search monsters'
 					handleInputChange={this.handleInputChange}
